@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer"
 let todos = [];
 let condition = true;
@@ -12,10 +13,10 @@ while(condition)
         message:"what you want to add in your Todos?"
     },
     {
-        name:'addmore',
+        name:'addMore',
         type:'confirm',
         message:"Do you want to add more ?",
-        default:"true"
+        default:"false"
     }
 ]
 );
