@@ -15,7 +15,7 @@ while(condition)
         name:'addmore',
         type:'confirm',
         message:"Do you want to add more ?",
-        default:"false"
+        default:"true"
     }
 ]
 );
